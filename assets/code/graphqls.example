@@ -1,0 +1,18 @@
+type Post {
+    id: Int!
+    title: String!
+    body: String!
+    createdAt: Int!
+    updatedAt: Int
+
+    author: User!
+    comments: [Comment]!
+    commentsCount: Int
+}
+
+type Query {
+    post(id: Int!): Post!
+}
+schema {
+    query: Query
+}

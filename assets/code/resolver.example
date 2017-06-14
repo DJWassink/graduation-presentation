@@ -1,0 +1,18 @@
+const resolvers: Resolvers = {
+    Query: {
+        post(obj: any, args: { id: number }) {
+            return postLoader.load(args.id);
+        }
+    },
+    Post: {
+        author(post: Post) {
+            return userLoader.load(post.userId);
+        },
+        comments(post: Post) {
+            return commentsLoader.load(post.id);
+        },
+        commentsCount(post: Post) {
+            return commentCountLoader.load(post.id);
+        }
+    }
+};

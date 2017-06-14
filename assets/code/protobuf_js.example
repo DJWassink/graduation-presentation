@@ -1,0 +1,12 @@
+//encode
+const buffer = PB.Compiled.User.encode({
+    id: user.id,
+    userName: user.userName,
+    email: user.email,
+    createdAt: user.createdAt,
+    updatedAt: user.updatedAt
+}).finish();
+
+//decode
+const user = PB.Gen.User
+    .decode(buffer).toObject();

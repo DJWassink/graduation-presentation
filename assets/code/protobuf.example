@@ -1,0 +1,8 @@
+message User {
+    uint32 id = 1;
+    string userName = 2;
+    string password = 3;
+    string email = 4;
+    double createdAt = 5;
+    double updatedAt = 6;
+}

@@ -1,0 +1,42 @@
+body {
+    font-size: 16px !important;
+}
+
+.spectacle-slide {
+    font-size: 1rem !important;
+}
+/*code, kbd, pre, samp {
+    font-size: 0.7rem !important;
+}*/
+
+pre {
+    max-width: 50vw !important;
+}
+
+ul ul {
+    padding-left: 35px !important;
+}
+.language-break {
+    white-space: pre-wrap !important;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    color: #ccc;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 18px;
+    font-size: 18px;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}

@@ -1,0 +1,14 @@
+//encode
+$protoUser = new PocProtobufCompiledUser();
+
+$protoUser->setId($this->id);
+$protoUser->setUserName($this->user_name);
+$protoUser->setEmail($this->email);
+$protoUser->setCreatedAt($this->created_at);
+$protoUser->setUpdatedAt($this->updated_at);
+
+$buffer = $protoUser->encode();
+
+//decode
+$protoUser = new PocProtobufCompiledUser();
+$user = $protoUser->decode($buffer);

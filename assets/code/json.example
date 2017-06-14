@@ -1,0 +1,12 @@
+{
+   "post":{ "id":6, "title":"We got ourself a title", "body":"Here be some body", "userId":10, "createdAt":1493622209, "updatedAt":1493622209 },
+   "comments":[
+      { "id":1, "body":"Whoop", "postId":6, "userId":2, "createdAt":1493041132, "updatedAt":1493041132 },
+      { "id":2, "body":"My comment", "parentCommentId":1, "postId":6, "userId":7, "createdAt":1493041137, "updatedAt":1493041137 }
+   ],
+   "users":[
+      { "id":2, "userName":"nickname", "email":"asdf@a.com", "createdAt":1493041106036, "updatedAt":1493041106036 },
+      { "id":7, "userName":"Kailee.Blick5", "email":"Hanna.Lockman@gmail.com", "createdAt":1493041337979, "updatedAt":1493041337979 },
+      { "id":10, "userName":"Harvey91", "email":"Lois21@yahoo.com", "createdAt":1493041352888, "updatedAt":1493041352888 }
+   ]
+}
