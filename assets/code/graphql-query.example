@@ -1,0 +1,10 @@
+{
+  post(id: 15) {
+    title,
+    body,
+    createdAt,
+    author {
+      id
+    }
+  }
+}

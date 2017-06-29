@@ -1,0 +1,20 @@
+export namespace CurrentPostQuery {
+  export type Variables = {
+      id: number;
+  }
+
+  export type Result = {
+    post: Post;
+  } 
+
+  export type Post = {
+    title: string;
+    body: string;
+    createdAt: number;
+    author: Author;
+  } 
+
+  export type Author = {
+    id: number;
+  }
+}

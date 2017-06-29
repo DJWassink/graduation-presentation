@@ -1,0 +1,12 @@
+{
+  "data": {
+    "post": {
+      "title":"We got ourself a title", 
+      "body":"Here be some body", 
+      "createdAt":1493622209,
+      "author": {
+          "id": 10
+      }
+    }
+  }
+}

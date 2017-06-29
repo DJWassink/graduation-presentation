@@ -13,6 +13,7 @@ type Post {
 type Query {
     post(id: Int!): Post!
 }
+
 schema {
     query: Query
 }

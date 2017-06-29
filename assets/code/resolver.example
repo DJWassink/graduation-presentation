@@ -2,6 +2,14 @@ const resolvers: Resolvers = {
     Query: {
         post(obj: any, args: { id: number }) {
             return postLoader.load(args.id);
+        },
+        posts() {
+            return postRepository.getLast(20);
+        }
+    },
+    Mutation: {
+        post(obj: {title: string, body: string}) {
+            return postRepository.save({title, body});
         }
     },
     Post: {
@@ -10,9 +18,6 @@ const resolvers: Resolvers = {
         },
         comments(post: Post) {
             return commentsLoader.load(post.id);
-        },
-        commentsCount(post: Post) {
-            return commentCountLoader.load(post.id);
         }
     }
 };
