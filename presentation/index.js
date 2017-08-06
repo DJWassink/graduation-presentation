@@ -85,7 +85,9 @@ export default class Presentation extends React.Component {
                     </Text>
                 </Slide>
                 <Slide bgColor="tertiary">
-                    <Heading size={3} textColor="secondary">Agenda</Heading>
+                    <Heading size={3} textColor="secondary">
+                        Agenda
+                    </Heading>
                     <List>
                         <ListItem>Probleem</ListItem>
                         <ListItem>Doelstelling</ListItem>
@@ -104,8 +106,12 @@ export default class Presentation extends React.Component {
                 </Slide>
                 {/*Start probleem*/}
                 <Slide bgColor="primary" textColor="tertiary" maxHeight="100%" maxWidth="100%" notes="Jonas Helfer">
-                    <Heading size={4} textColor="secondary">Probleem</Heading>
-                    <Heading size={8} textColor="secondary">RESTful - één endpoint per entiteit</Heading>
+                    <Heading size={4} textColor="secondary">
+                        Probleem
+                    </Heading>
+                    <Heading size={8} textColor="secondary">
+                        RESTful - één endpoint per entiteit
+                    </Heading>
                     <br />
                     <br />
                     <Layout>
@@ -113,13 +119,17 @@ export default class Presentation extends React.Component {
                             <Image src={images.restful} width="80%" />
                         </Fill>
                         <Fit style={{minWidth: '25%'}}>
-                            <Heading size={6} textColor="secondary">Voordelen</Heading>
+                            <Heading size={6} textColor="secondary">
+                                Voordelen
+                            </Heading>
                             <List>
                                 <ListItem style={{fontSize: '1.3rem'}}>Flexibel</ListItem>
                                 <ListItem style={{fontSize: '1.3rem'}}>Low coupeling</ListItem>
                             </List>
                             <br />
-                            <Heading size={6} textColor="secondary">Nadelen</Heading>
+                            <Heading size={6} textColor="secondary">
+                                Nadelen
+                            </Heading>
                             <List>
                                 <ListItem style={{fontSize: '1.3rem'}}>Veel requests</ListItem>
                                 <ListItem style={{fontSize: '1.3rem'}}>Veel data</ListItem>
@@ -132,8 +142,12 @@ export default class Presentation extends React.Component {
                     </Text>
                 </Slide>
                 <Slide bgColor="primary" textColor="tertiary" maxHeight="100%" maxWidth="100%">
-                    <Heading size={4} textColor="secondary">Probleem</Heading>
-                    <Heading size={8} textColor="secondary">RESTful-ish - één endpoint per view</Heading>
+                    <Heading size={4} textColor="secondary">
+                        Probleem
+                    </Heading>
+                    <Heading size={8} textColor="secondary">
+                        RESTful-ish - één endpoint per view
+                    </Heading>
                     <br />
                     <br />
                     <Layout>
@@ -141,13 +155,17 @@ export default class Presentation extends React.Component {
                             <Image src={images.restfulish} width="80%" />
                         </Fill>
                         <Fit style={{minWidth: '25%'}}>
-                            <Heading size={6} textColor="secondary">Voordelen</Heading>
+                            <Heading size={6} textColor="secondary">
+                                Voordelen
+                            </Heading>
                             <List>
                                 <ListItem style={{fontSize: '1.3rem'}}>Één request</ListItem>
                                 <ListItem style={{fontSize: '1.3rem'}}>Weinig data</ListItem>
                             </List>
                             <br />
-                            <Heading size={6} textColor="secondary">Nadelen</Heading>
+                            <Heading size={6} textColor="secondary">
+                                Nadelen
+                            </Heading>
                             <List>
                                 <ListItem style={{fontSize: '1.3rem'}}>Niet flexibel</ListItem>
                                 <ListItem style={{fontSize: '1.3rem'}}>Moeilijk onderhoudbaar</ListItem>
@@ -161,8 +179,12 @@ export default class Presentation extends React.Component {
                     </Text>
                 </Slide>
                 <Slide bgImage={images.documentation} bgDarken={0.8} textColor="tertiary" maxWidth="50%">
-                    <Heading size={1} textColor="primary">Probleem</Heading>
-                    <Heading size={3} textColor="primary">Documentatie</Heading>
+                    <Heading size={1} textColor="primary">
+                        Probleem
+                    </Heading>
+                    <Heading size={3} textColor="primary">
+                        Documentatie
+                    </Heading>
                     <List>
                         <ListItem style={{fontSize: '3.5rem'}}>Bijhouden</ListItem>
                         <ListItem style={{fontSize: '3.5rem'}}>Meerdere "point of thruth"</ListItem>
@@ -176,7 +198,9 @@ export default class Presentation extends React.Component {
 
                 {/*Start doelstelling*/}
                 <Slide bgColor="primary" textColor="tertiary" maxHeight="90%" maxWidth="100%">
-                    <Heading size={6} textColor="secondary">Doelstelling</Heading>
+                    <Heading size={6} textColor="secondary">
+                        Doelstelling
+                    </Heading>
                     <br />
                     <Image src={images.standarizedApi} width="75%" />
                     <br />
@@ -200,7 +224,9 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="tertiary" textColor="tertiary">
-                    <Heading size={1} textColor="secondary">Requirements?</Heading>
+                    <Heading size={1} textColor="secondary">
+                        Requirements?
+                    </Heading>
                 </Slide>
                 {/* Einde doelstelling*/}
 
@@ -211,7 +237,9 @@ export default class Presentation extends React.Component {
                     maxHeight="100%"
                     textColor="tertiary"
                     notes="goede documentatie: welke endpoints, dataschema.">
-                    <Heading size={1} textColor="secondary">Criteria</Heading>
+                    <Heading size={1} textColor="secondary">
+                        Criteria
+                    </Heading>
                     <List>
                         <ListItem>Criteria uit interviews</ListItem>
                         <List>
@@ -232,13 +260,17 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide className="full-height" bgColor="tertiary" textColor="tertiary" maxWidth="100%" maxHeight="100%">
-                    <Heading size={6} textColor="secondary">Kepner Tregoe - Criteria</Heading>
+                    <Heading size={6} textColor="secondary">
+                        Kepner Tregoe - Criteria
+                    </Heading>
                     <br />
                     <Image src={images.criteria} height="85%" />
                 </Slide>
 
                 <Slide className="full-height" bgColor="tertiary" textColor="tertiary" maxWidth="100%" maxHeight="100%">
-                    <Heading size={6} textColor="secondary">Kepner Tregoe - Werking</Heading>
+                    <Heading size={6} textColor="secondary">
+                        Kepner Tregoe - Werking
+                    </Heading>
                     <br />
 
                     <Layout className="full-height">
@@ -255,13 +287,17 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="tertiary" textColor="tertiary" maxWidth="100%" maxHeight="90%">
-                    <Heading size={6} textColor="secondary">Kepner Tregoe - Matrix</Heading>
+                    <Heading size={6} textColor="secondary">
+                        Kepner Tregoe - Matrix
+                    </Heading>
                     <br />
                     <Image src={images.kepner} width="100%" />
                 </Slide>
 
                 <Slide bgColor="tertiary" textColor="secondary">
-                    <Heading fit textColor="secondary">Kepner Tregoe resultaten</Heading>
+                    <Heading fit textColor="secondary">
+                        Kepner Tregoe resultaten
+                    </Heading>
                     <br />
                     <List ordered>
                         <ListItem>&nbsp;&nbsp; 109&nbsp;&nbsp;-&nbsp;GraphQL</ListItem>
@@ -269,35 +305,39 @@ export default class Presentation extends React.Component {
                         <ListItem>
                             &nbsp;&nbsp;102&nbsp;&nbsp;-&nbsp;<s>Thrift</s>
                         </ListItem>
-                        <ListItem>
-                            &nbsp;&nbsp;91&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;JSON API
-                        </ListItem>
-                        <ListItem>
-                            &nbsp;&nbsp;84&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RESTful
-                        </ListItem>
+                        <ListItem>&nbsp;&nbsp;91&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;JSON API</ListItem>
+                        <ListItem>&nbsp;&nbsp;84&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RESTful</ListItem>
                     </List>
                 </Slide>
                 {/* Einde Interview/Criteria */}
 
                 <Slide bgColor="tertiary" textColor="tertiary">
-                    <Heading size={3} textColor="secondary">Resultaten valideren</Heading>
+                    <Heading size={3} textColor="secondary">
+                        Resultaten valideren
+                    </Heading>
                     <br />
                     <Text fit>Protocollen uitwerken in Proof of Concepten</Text>
                 </Slide>
 
                 <Slide bgColor="tertiary" textColor="tertiary" maxHeight="100%">
-                    <Heading size={3} textColor="secondary">Datamodel</Heading>
+                    <Heading size={3} textColor="secondary">
+                        Datamodel
+                    </Heading>
                     <br />
                     <Image src={images.datamodel} height="100%" />
                 </Slide>
 
                 {/* Start protobuf */}
                 <Slide bgColor="tertiary" textColor="tertiary">
-                    <Heading size={1} textColor="secondary">Protobuf?</Heading>
+                    <Heading size={1} textColor="secondary">
+                        Protobuf?
+                    </Heading>
                 </Slide>
 
                 <Slide bgColor="secondary" textColor="primary">
-                    <Heading size={3} textColor="primary">Proto schema</Heading>
+                    <Heading size={3} textColor="primary">
+                        Proto schema
+                    </Heading>
                     <div className="code-pane-size-30">
                         <CodePane
                             style={{fontSize: '0.8em'}}
@@ -308,11 +348,15 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="secondary" textColor="primary" maxWidth="100%" maxHeight="100%">
-                    <Heading size={6} textColor="primary">Protobuf</Heading>
+                    <Heading size={6} textColor="primary">
+                        Protobuf
+                    </Heading>
                     <br />
                     <Layout>
                         <Fill style={{padding: '5px'}}>
-                            <Heading size={12} style={{fontSize: '2em'}} textColor="primary">PHP</Heading>
+                            <Heading size={12} style={{fontSize: '2em'}} textColor="primary">
+                                PHP
+                            </Heading>
                             <div className="code-pane-size-24">
                                 <CodePane
                                     style={{fontSize: '0.8em'}}
@@ -323,7 +367,9 @@ export default class Presentation extends React.Component {
                         </Fill>
 
                         <Fill style={{padding: '5px'}}>
-                            <Heading size={12} style={{fontSize: '2em'}} textColor="primary">JavaScript</Heading>
+                            <Heading size={12} style={{fontSize: '2em'}} textColor="primary">
+                                JavaScript
+                            </Heading>
                             <div className="code-pane-size-24">
                                 <CodePane
                                     style={{fontSize: '0.8em'}}
@@ -336,10 +382,14 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="secondary" textColor="primary" maxWidth="100%" maxHeight="100%">
-                    <Heading size={6} textColor="primary">Protobuf</Heading>
+                    <Heading size={6} textColor="primary">
+                        Protobuf
+                    </Heading>
                     <Layout>
                         <Fill style={{padding: '5px'}}>
-                            <Heading size={12} style={{fontSize: '2em'}} textColor="primary">Proto</Heading>
+                            <Heading size={12} style={{fontSize: '2em'}} textColor="primary">
+                                Proto
+                            </Heading>
                             <Text textColor="tertiary">270 chars</Text>
                             <div className="max-50vw">
                                 <CodePane
@@ -350,7 +400,9 @@ export default class Presentation extends React.Component {
                         </Fill>
 
                         <Fill style={{padding: '5px'}}>
-                            <Heading size={12} style={{fontSize: '2em'}} textColor="primary">Json</Heading>
+                            <Heading size={12} style={{fontSize: '2em'}} textColor="primary">
+                                Json
+                            </Heading>
                             <Text textColor="tertiary">704 chars</Text>
                             <div className="max-50vw">
                                 <CodePane
@@ -363,14 +415,20 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="primary" textColor="tertiary" maxHeight="80%">
-                    <Heading size={3} textColor="secondary">Protobuf</Heading>
+                    <Heading size={3} textColor="secondary">
+                        Protobuf
+                    </Heading>
                     <br />
-                    <Heading size={5} textColor="secondary">Voordelen</Heading>
+                    <Heading size={5} textColor="secondary">
+                        Voordelen
+                    </Heading>
                     <List>
                         <ListItem>Weinig data</ListItem>
                         <ListItem>Proto schema</ListItem>
                     </List>
-                    <Heading size={5} textColor="secondary">Nadelen</Heading>
+                    <Heading size={5} textColor="secondary">
+                        Nadelen
+                    </Heading>
                     <List>
                         <ListItem>Onduidelijke data</ListItem>
                         <ListItem>Error prone</ListItem>
@@ -381,18 +439,26 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="tertiary" textColor="tertiary" maxWidth="75%">
-                    <Heading fit textColor="secondary">Protobuf de oplossing?</Heading>
-                    <Heading fit textColor="secondary">Helaas. Zelfde problemen als RESTful(-ish)</Heading>
+                    <Heading fit textColor="secondary">
+                        Protobuf de oplossing?
+                    </Heading>
+                    <Heading fit textColor="secondary">
+                        Helaas. Zelfde problemen als RESTful(-ish)
+                    </Heading>
                 </Slide>
                 {/* Eind protobuf */}
 
                 {/* Start GraphQL */}
                 <Slide bgColor="tertiary" textColor="tertiary">
-                    <Heading size={1} textColor="secondary">GraphQL?</Heading>
+                    <Heading size={1} textColor="secondary">
+                        GraphQL?
+                    </Heading>
                 </Slide>
 
                 <Slide bgColor="secondary" textColor="primary" maxHeight="100%" maxWidth="50%">
-                    <Heading size={3} textColor="primary">GraphQLs</Heading>
+                    <Heading size={3} textColor="primary">
+                        GraphQLs
+                    </Heading>
                     <br />
                     <div className="code-pane-size-30">
                         <CodePane
@@ -404,7 +470,9 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="secondary" textColor="primary" maxHeight="100%" maxWidth="50%">
-                    <Heading size={3} textColor="primary">GraphQL query</Heading>
+                    <Heading size={3} textColor="primary">
+                        GraphQL query
+                    </Heading>
                     <br />
                     <div className="code-pane-size-30">
                         <CodePane
@@ -435,7 +503,9 @@ export default class Presentation extends React.Component {
                 />
 
                 <Slide bgColor="secondary" textColor="primary" maxHeight="100%" maxWidth="65%">
-                    <Heading fit textColor="primary">GraphQL query resultaat</Heading>
+                    <Heading fit textColor="primary">
+                        GraphQL query resultaat
+                    </Heading>
                     <br />
                     <div className="code-pane-size-30">
                         <CodePane
@@ -469,11 +539,15 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="secondary" textColor="primary" maxWidth="100%" maxHeight="100%">
-                    <Heading size={6} textColor="primary">TypeScript compiler</Heading>
+                    <Heading size={6} textColor="primary">
+                        TypeScript compiler
+                    </Heading>
                     <br />
                     <Layout>
                         <Fill style={{padding: '10px'}}>
-                            <Heading size={7} style={{fontSize: '2em'}} textColor="primary">Query</Heading>
+                            <Heading size={7} style={{fontSize: '2em'}} textColor="primary">
+                                Query
+                            </Heading>
                             <div className="code-pane-size-28">
                                 <CodePane
                                     lang="javascript"
@@ -496,10 +570,14 @@ export default class Presentation extends React.Component {
                     </Layout>
                 </Slide>
 
-                <Slide bgColor="primary" textColor="tertiary" maxHeight="80%">
-                    <Heading size={3} textColor="secondary">GraphQL</Heading>
+                <Slide bgColor="primary" textColor="tertiary" maxHeight="100%">
+                    <Heading size={3} textColor="secondary">
+                        GraphQL
+                    </Heading>
                     <br />
-                    <Heading size={5} textColor="secondary">Voordelen</Heading>
+                    <Heading size={5} textColor="secondary">
+                        Voordelen
+                    </Heading>
                     <List>
                         <ListItem>GraphQLs schema</ListItem>
                         <ListItem>Zelf beschrijvend</ListItem>
@@ -509,7 +587,9 @@ export default class Presentation extends React.Component {
                         <ListItem>Nestbare data</ListItem>
                         <ListItem>Zelf benodigde data bepalen</ListItem>
                     </List>
-                    <Heading size={5} textColor="secondary">Nadelen</Heading>
+                    <Heading size={5} textColor="secondary">
+                        Nadelen
+                    </Heading>
                     <List>
                         <ListItem>Error handeling, geen spec</ListItem>
                         <ListItem>Authenticatie, geen spec</ListItem>
@@ -517,11 +597,15 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="tertiary" textColor="tertiary" maxWidth="75%">
-                    <Heading fit textColor="secondary">GraphQL de oplossing?</Heading>
+                    <Heading fit textColor="secondary">
+                        GraphQL de oplossing?
+                    </Heading>
                 </Slide>
 
                 <Slide bgColor="tertiary" textColor="secondary">
-                    <Heading size={3} textColor="secondary">Requirements</Heading>
+                    <Heading size={3} textColor="secondary">
+                        Requirements
+                    </Heading>
                     <List>
                         <ListItem>Criteria uit interviews</ListItem>
                         <List>
@@ -543,7 +627,9 @@ export default class Presentation extends React.Component {
                 {/* Einde GraphQL */}
 
                 <Slide bgColor="tertiary" textColor="tertiary">
-                    <Heading size={1} textColor="secondary">Conclusie</Heading>
+                    <Heading size={1} textColor="secondary">
+                        Conclusie
+                    </Heading>
                     <br />
                     <Text>Protobuf handig voor data zuinige scenario's</Text>
                     <br />
@@ -551,7 +637,9 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide bgColor="tertiary" textColor="tertiary">
-                    <Heading size={1} textColor="secondary">Einde</Heading>
+                    <Heading size={1} textColor="secondary">
+                        Einde
+                    </Heading>
                 </Slide>
             </Deck>
         );
